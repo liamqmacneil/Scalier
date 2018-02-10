@@ -1,28 +1,28 @@
 {
-    "id": "6c41d355-0bc5-40a1-ab96-4a47af872979",
+    "id": "41c27949-72ec-4365-92e6-86d9df70b1b1",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_ben_startGun",
+    "name": "obj_camera",
     "eventList": [
         {
-            "id": "1a4df529-fd8b-4ba3-8fa6-3a81bebe3e09",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 3,
-            "m_owner": "6c41d355-0bc5-40a1-ab96-4a47af872979"
-        },
-        {
-            "id": "99988768-195f-46a1-a5b7-0c86f24c0b79",
+            "id": "ec088e8a-aa24-4b97-994f-5c423f4b244b",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "6c41d355-0bc5-40a1-ab96-4a47af872979"
+            "m_owner": "41c27949-72ec-4365-92e6-86d9df70b1b1"
+        },
+        {
+            "id": "c6c5b25c-db62-4337-bbf5-dce3c9eef3b8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "41c27949-72ec-4365-92e6-86d9df70b1b1"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "fc0de5a4-bb14-4e28-8eff-f1dffe40280f",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

@@ -9,3 +9,6 @@ grv = 0.3;
 walksp = 4;
 //acceleration
 acl = 0.2;
+
+//health points
+hp = 10;

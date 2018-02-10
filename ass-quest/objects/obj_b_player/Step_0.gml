@@ -28,3 +28,4 @@ if(place_meeting(x,y+vsp,obj_wall)) {
 }
 y = y + vsp;
 	
+if(hsp != 0) image_xscale = sign(hsp);
