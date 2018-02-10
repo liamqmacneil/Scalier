@@ -1,0 +1,1 @@
+fireDelay = 0;
