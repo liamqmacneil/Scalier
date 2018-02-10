@@ -1,0 +1,2 @@
+scaleSelectTest = false;
+selected = false;
