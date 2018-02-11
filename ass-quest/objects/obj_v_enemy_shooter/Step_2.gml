@@ -3,9 +3,9 @@ with(obj_b_player)
 {
     other.image_angle = point_direction(other.x,other.y,x,y);
     
-    if(other.image_angle >= 210) && (other.image_angle < 270) other.image_angle = 210;
+    if(other.image_angle <= 210) && (other.image_angle > 270) other.image_angle = 210;
     
-    if(other.image_angle < 340) && (other.image_angle >= 270) other.image_angle = 340;
+    if(other.image_angle > 340) && (other.image_angle <= 270) other.image_angle = 340;
     
     
     
