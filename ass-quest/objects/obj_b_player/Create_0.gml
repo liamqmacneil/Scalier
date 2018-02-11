@@ -12,3 +12,15 @@ acl = 0.2;
 
 //health points
 hp = 10;
+
+//direction where we were hit from
+hitfrom = 0;
+
+//the health from before
+healthPrevious = hp;
+
+//the hit delay
+hitdelay = 0;
+
+//falltimer
+falltimer = 0;
