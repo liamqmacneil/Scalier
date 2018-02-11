@@ -6,4 +6,4 @@ done = 0;
 
 image_speed = 0;
 
-hitfrom = 0;
+hitfrom = 0; 

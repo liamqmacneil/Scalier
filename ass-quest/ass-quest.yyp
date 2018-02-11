@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "7961e704-2e97-486a-90f0-23a3b587e3cc",
+            "Value": {
+                "id": "974341dd-226d-49ef-85ad-5672d5d03dee",
+                "resourcePath": "objects\\obj_b_player_dead\\obj_b_player_dead.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7dd60a50-1a07-4a62-9cbc-dc87dbfd52c3",
             "Value": {
                 "id": "c6cddad4-2059-4916-9e16-e21ac87aec16",
@@ -316,6 +324,22 @@
                 "id": "c57e6f08-2bb0-4dbf-a70b-c3515ee0f0c0",
                 "resourcePath": "views\\88a5a726-cbce-4594-a966-6f485e795a51.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8a3f98d6-22e2-414b-a94a-79922aa4a6bf",
+            "Value": {
+                "id": "89d9632c-ad94-47c2-8e1a-b2ad798c8727",
+                "resourcePath": "objects\\object22\\object22.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "911c7c49-d749-4458-8f31-160a2b29dccf",
+            "Value": {
+                "id": "320974ed-c4b2-4d9e-bc51-5a1191cf6bdf",
+                "resourcePath": "sprites\\spr_b_broccoli\\spr_b_broccoli.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -572,6 +596,14 @@
                 "id": "3fe296e0-cb2c-4444-b89a-101270c925e0",
                 "resourcePath": "views\\f0ba6c69-88cd-42cb-8254-81bd5b508f1f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f7c51175-ccde-4a63-af85-7b7af54a43d5",
+            "Value": {
+                "id": "1a7d1902-e014-40af-903e-d177d60b40c8",
+                "resourcePath": "sprites\\spr_b_\\spr_b_.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
