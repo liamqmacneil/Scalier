@@ -4,7 +4,7 @@ if(done == 0){
 	vsp = vsp + grv;
 
 	if(place_meeting(x + hsp, y, obj_wall))
-	{
+{
 		
 		
 		while(!place_meeting(x + sign(hsp), y, obj_wall)) 
@@ -28,7 +28,7 @@ if(done == 0){
 			image_index = 1;
 		}
 		
-		while(!place_meeting(x, y + sign(vsp), obj_wall))
+	while(!place_meeting(x, y + sign(vsp), obj_wall))
 		{
 			y = y + sign(vsp);
 		}
@@ -37,4 +37,4 @@ if(done == 0){
 
 	y = y + vsp;
 
-}
+} 
