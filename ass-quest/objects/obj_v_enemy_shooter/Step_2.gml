@@ -20,6 +20,9 @@ else
 }
 fireDelay = fireDelay - 1;
 //if the player is in proximity
+
+if(!instance_exists(obj_b_player)) exit;
+
 if(obj_b_player.x > (x - 300)) && (obj_b_player.x < (x + 300))
 {
     //fire at the bitch

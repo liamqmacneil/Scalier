@@ -26,11 +26,17 @@ y += vsp;
 
 #region // Main Player Collision
 
-if(place_meeting(x,y+vsp,obj_b_player)) {
+if(place_meeting(x,y-sprite_height,obj_b_player)) {
+
+
 	if(obj_b_player.y < y-16)
 	{
-		with(obj_b_player) vsp = -jumpspeed;
+		with(obj_b_player) vsp = -walksp;
+		HEALTH_ -= 1;
+		
+		if(HEALTH_ == 0) {
 		instance_destroy();
+		}
 	}
 	else 
 	{
