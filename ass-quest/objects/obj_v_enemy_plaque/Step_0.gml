@@ -34,8 +34,14 @@ if(place_meeting(x,y+vsp,obj_b_player)) {
 	if(obj_b_player.y < y-16)
 	{
 		with(obj_b_player) vsp = -walksp;
-		instance_destroy();
+		HEALTH_--;
 	}
 	
 }
 #endregion
+
+if(place_meeting(x,y,obj_wall)) HEALTH_--;
+
+if(HEALTH_ <= 0) {
+	instance_destroy();
+}

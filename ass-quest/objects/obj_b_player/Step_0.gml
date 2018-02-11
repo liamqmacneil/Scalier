@@ -1,5 +1,8 @@
-/// @description ? Player moves
-key_right = scr_input_const("D", vk_right);
+if (instance_exists(obj_enemy_projectile)) {
+	//show_debug_message(instance_number(obj_enemy_projectile));
+}
+
+key_right = scr_input_const("D",vk_right);
 key_left = scr_input_const("A",vk_left);
 
 var move = key_right - key_left;
@@ -7,7 +10,7 @@ var move = key_right - key_left;
 hsp = move * walksp;
 vsp = vsp + grv;
 
-
+if(place_meeting(x,y,obj_wall)) hp--;
 
 
 if(scr_input_const(vk_space)) && place_meeting(x,y+1,obj_wall) {
@@ -30,7 +33,7 @@ if(place_meeting(x,y+vsp,obj_wall)) {
 	}
 	vsp = 0;
 
-}											
+}
 y = y + vsp;
 	
 if(hsp != 0) image_xscale = sign(hsp);
@@ -45,5 +48,3 @@ if(hsp != 0) {
 
 
 #endregion
-
-

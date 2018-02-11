@@ -32,7 +32,8 @@ if(place_meeting(x,y+vsp,obj_b_player)) {
     if(obj_b_player.y < y-16)
     {
         with(obj_b_player) vsp = -walksp;
-        instance_destroy();
+		HEALTH_ -= 1;
+        //instance_destroy();
     }
     
 }

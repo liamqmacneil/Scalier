@@ -9,3 +9,7 @@ grav = 0.2;
 hsp = 0;
 // Verticle Speed
 vsp = 0;
+
+HEALTH_ = 3;
+
+gracePeriod = 0;

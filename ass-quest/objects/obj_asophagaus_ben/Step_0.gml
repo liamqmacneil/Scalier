@@ -1,5 +1,8 @@
 /// @description ? 
 
+left_max = xBeg - left_add;
+right_max = xBeg + right_add;
+
 x = x + hsp;
 
 if(x + hsp == left_max) {

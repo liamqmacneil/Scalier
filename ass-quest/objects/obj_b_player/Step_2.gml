@@ -3,7 +3,7 @@ hitdelay--;
 
 if(healthPrevious > hp) {
 	hitdelay = 5;
-	vsp -= 2;
+	//vsp -= 2;
 }
 
 if(hitdelay > 0) {
@@ -13,6 +13,8 @@ if(hitdelay > 0) {
 }
 
 if(hp <= 0) {
+	
+	//show_debug_message(hp);
 	
 	with(instance_create_layer(x,y,"player_layer",obj_b_player_dead)) {
 		

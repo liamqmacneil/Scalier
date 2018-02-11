@@ -39,3 +39,5 @@ if(obj_b_player.x > (x - 300)) && (obj_b_player.x < (x + 300))
         
     }
 }
+
+if(place_meeting(x,y,obj_wall)) instance_destroy();
