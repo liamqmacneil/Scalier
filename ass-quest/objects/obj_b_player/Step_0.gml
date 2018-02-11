@@ -8,6 +8,24 @@ hsp = move * walksp;
 vsp = vsp + grv;
 
 
+if(scr_input_const(vk_space)) && place_meeting(x,y+1,obj_v_opening_mouth) {
+	vsp = -7;
+}
+
+if(place_meeting(x+hsp,y,obj_v_opening_mouth)) {
+	while(!place_meeting(x+sign(hsp),y,obj_v_opening_mouth)) {
+	x = x + sign(hsp);
+	}
+	hsp = 0;
+}
+
+
+if(place_meeting(x,y+vsp,obj_v_opening_mouth)) {
+	while(!place_meeting(x,y+sign(vsp),obj_v_opening_mouth)) {
+		y = y + sign(vsp);
+	}
+	vsp = 0;
+}
 
 
 if(scr_input_const(vk_space)) && place_meeting(x,y+1,obj_wall) {
