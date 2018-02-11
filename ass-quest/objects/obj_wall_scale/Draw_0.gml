@@ -1,6 +1,5 @@
-if (selected = true) {
-	var scaleAm = obj_scalier.scaleAm,scale = scaleAm;
-	draw_sprite_stretched(sprite_index,0,x,y,sprite_width*scale,sprite_height*scale);
-}else {
-	draw_self();
+if (surface_exists(obj_scalier.scaleSurf)) {
+	surface_set_target(obj_scalier.scaleSurf)
+		draw_self();
+	surface_reset_target()
 }

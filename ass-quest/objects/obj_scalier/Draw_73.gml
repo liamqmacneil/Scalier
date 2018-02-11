@@ -1,79 +1,57 @@
 var oldCol = draw_get_color()
-draw_set_color(c_black)
-
-if (mouse_wheel_up()) {
-	scaleAm ++;
-	scalePoint0_x = scalePoint0_x_d-((scaleAm-1)*10);
-	scalePoint0_y = scalePoint0_y_d-((scaleAm-1)*10);
-	scalePoint1_x = scalePoint1_x_d+((scaleAm-1)*10);
-	scalePoint1_y = scalePoint1_y_d+((scaleAm-1)*10);
-	show_debug_message(scaleAm)
+draw_set_color(c_white);
+if !(surface_exists(scaleSurf)) {
+	scaleSurf = surface_create(room_width,room_height);
 }
 
-if (mouse_wheel_down()) {
-	scaleAm --;
-	scalePoint0_x = scalePoint0_x_d-((scaleAm-1)*10);
-	scalePoint0_y = scalePoint0_y_d-((scaleAm-1)*10);
-	scalePoint1_x = scalePoint1_x_d+((scaleAm-1)*10);
-	scalePoint1_y = scalePoint1_y_d+((scaleAm-1)*10);
-	show_debug_message(scaleAm)
-}
-
-#region
-	if (mouse_check_button_pressed(mb_right)) {
-		scaling = false;
-		scalePoint0_x = noone;
-		scalePoint0_y = noone;
-
-		scalePoint1_x = noone;
-		scalePoint1_y = noone;
+if (mouse_check_button_pressed(mb_right)) {
+	scaleCase = 0;
+	surface_set_target(scaleDisplaySurf)
 		
-		scalePointState = 0;
-	}
-#endregion
+	surface_reset_target()
+}
 
-
-
-switch (scalePointState) {
-	
+switch (scaleCase) {
 	case 0:
 		if (mouse_check_button_pressed(mb_left)) {
-			scalePointState = 1;
-			scalePoint0_x_d = obj_mouse.x;
-			scalePoint0_y_d = obj_mouse.y;
 			scaling = true;
+			scalePos0_x = obj_mouse.x;
+			scalePos0_y = obj_mouse.y;
+			scaleCase = 1;
 		}
 	break;
 	
 	case 1:
-		draw_rectangle(scalePoint0_x_d,scalePoint0_y_d,obj_mouse.x,obj_mouse.y,true);
+		draw_rectangle(scalePos0_x,scalePos0_y,obj_mouse.x,obj_mouse.y,true);
 		if (mouse_check_button_pressed(mb_left)) {
-			scalePointState = 2;
-			scalePoint1_x_d = obj_mouse.x;
-			scalePoint1_y_d = obj_mouse.y;
+			scaling = true;
+			scalePos1_x = obj_mouse.x;
+			scalePos1_y = obj_mouse.y;
+			scaleSel_h = scalePos1_x-scalePos0_x;
+			scaleSel_w = scalePos1_y-scalePos0_y;
+			scaleCase = 2;
 		}
 	break;
 	
 	case 2:
-		scalePoint0_x = scalePoint0_x_d-((scaleAm-1)*10);
-		scalePoint0_y = scalePoint0_y_d-((scaleAm-1)*10);
-		scalePoint1_x = scalePoint1_x_d+((scaleAm-1)*10);
-		scalePoint1_y = scalePoint1_y_d+((scaleAm-1)*10);
-		draw_rectangle(scalePoint0_x,scalePoint0_y,scalePoint1_x,scalePoint1_y,true);
-		if (instance_exists(obj_wall_scale)) {
-			obj_wall_scale.scaleSelectTest = true;
+		draw_rectangle(scalePos0_x,scalePos0_y,scalePos1_x,scalePos1_y,true);
+		if !(surface_exists(scaleDisplaySurf)) {
+			scaleDisplaySurf = surface_create(scaleSel_h,scaleSel_w)
 		}
-		scaling = false;
-		scalePointState = 3;
-	break;
-
-	case 3:
-		draw_rectangle(scalePoint0_x,scalePoint0_y,scalePoint1_x,scalePoint1_y,true);
+		surface_copy_part(scaleDisplaySurf,0,0,scaleSurf,scalePos0_x,scalePos0_y,scaleSel_w,scaleSel_h);
+		draw_surface_ext(scaleDisplaySurf,scalePos0_x,scalePos0_y,1,1,2,c_yellow,1);
 	break;
 }
 
 
-draw_set_color(oldCol)
+
+
+
+
+draw_surface(scaleSurf,0,0);
+surface_set_target(scaleSurf);
+	draw_clear_alpha(c_black,0);
+surface_reset_target()
 
 
 
@@ -84,4 +62,4 @@ draw_set_color(oldCol)
 
 
 
-
+draw_set_color(oldCol);

@@ -1,3 +1,3 @@
 x = mouse_x;
 y = mouse_y;
-move_snap(20,20);
+move_snap(40,40);
