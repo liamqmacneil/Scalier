@@ -10,3 +10,4 @@ hsp = 0;
 // Verticle Speed
 vsp = 0;
 
+HEALTH_ = 2;
