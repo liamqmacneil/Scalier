@@ -6,8 +6,22 @@ var move = key_right - key_left;
 hsp = move * walksp;
 vsp = vsp + grv;
 
+if(place_meeting(x+hsp,y,obj_liver_acid)) {
+	while(!place_meeting(x+sign(hsp),y,obj_liver_acid)) {
+		x = x + sign(hsp);
+		hp = 0;
+	}
+	//hsp = 0;
+}
 
+if(place_meeting(x,y+vsp,obj_liver_acid)) {
+	while(!place_meeting(x,y+sign(vsp),obj_liver_acid)) {
+		y = y + sign(vsp);
+		hp = 0;
+	}
+	//vsp = 0;
 
+}
 
 if(scr_input_const(vk_space)) && place_meeting(x,y+1,obj_wall) {
 	vsp = -7;

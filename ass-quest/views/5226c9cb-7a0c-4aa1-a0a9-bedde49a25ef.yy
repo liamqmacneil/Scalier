@@ -13,9 +13,7 @@
         "5173b432-1d1d-421c-84f9-a487151049db",
         "984a84b8-02db-4bf4-9319-89c199d13483",
         "42c51bd6-60f6-403d-a2a9-e1fdc63736d1",
-        "05066a51-7643-4c72-81a5-ac0d7bef74de",
-        "61ac7ca0-9517-4d6a-9791-abda2684af6f",
-        "687a98d5-4807-41aa-a727-659e701ce60e"
+        "05066a51-7643-4c72-81a5-ac0d7bef74de"
     ],
     "filterType": "GMObject",
     "folderName": "Tor",
