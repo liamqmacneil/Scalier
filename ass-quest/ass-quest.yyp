@@ -103,14 +103,6 @@
             }
         },
         {
-            "Key": "2330d9a4-b1cb-47ff-b1db-55f2f8ce077b",
-            "Value": {
-                "id": "dfdb4327-6e82-45a1-a482-30eccd193129",
-                "resourcePath": "rooms\\room0\\room0.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "275575b4-d27e-46e2-b85c-c02e09f03f07",
             "Value": {
                 "id": "7b61e6da-3dfd-46d6-bcfd-b7f6fdf3e30c",
@@ -172,14 +164,6 @@
                 "id": "7f10a89b-fe1b-45a8-843c-6bcf748118ac",
                 "resourcePath": "scripts\\scr_input_const\\scr_input_const.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "4e0444cb-dbf6-4fda-bdd2-99c1f7e81417",
-            "Value": {
-                "id": "41c745f8-e508-4f9d-8267-bcb5c3bcd58e",
-                "resourcePath": "objects\\object17\\object17.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -335,14 +319,6 @@
             }
         },
         {
-            "Key": "8a3f98d6-22e2-414b-a94a-79922aa4a6bf",
-            "Value": {
-                "id": "89d9632c-ad94-47c2-8e1a-b2ad798c8727",
-                "resourcePath": "objects\\obj_ben_broccoli\\obj_ben_broccoli.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "911c7c49-d749-4458-8f31-160a2b29dccf",
             "Value": {
                 "id": "320974ed-c4b2-4d9e-bc51-5a1191cf6bdf",
@@ -388,14 +364,6 @@
                 "id": "0cfc8bd9-ef1d-460b-8f78-4ae6d8bda2ae",
                 "resourcePath": "views\\991fc846-e798-4157-861f-971cadb840a5.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "9cb62075-b6da-4208-b5f6-07c545663db5",
-            "Value": {
-                "id": "6c2f2351-2c2f-438f-9259-0a7dc1464ebe",
-                "resourcePath": "rooms\\room2\\room2.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -463,6 +431,14 @@
             }
         },
         {
+            "Key": "adaad390-efef-45d9-af4d-86632e5e9de8",
+            "Value": {
+                "id": "8c8aa4e5-9610-4705-b9f2-86cfbf736c41",
+                "resourcePath": "sprites\\spr_ben_player_hit\\spr_ben_player_hit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b1fbc872-8881-436b-8cb7-5646c0959c6f",
             "Value": {
                 "id": "130d09ba-79d9-49a2-98a9-c7211cf4e613",
@@ -475,6 +451,14 @@
             "Value": {
                 "id": "4e763f9e-3f7c-4940-8998-8339afb06ce1",
                 "resourcePath": "objects\\obj_v_enemy_plaque\\obj_v_enemy_plaque.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b409a854-7dd9-463c-a46f-8f19e56adb02",
+            "Value": {
+                "id": "a1d0a214-c809-46c6-b864-972f50adf508",
+                "resourcePath": "objects\\obj_ben_brocolli\\obj_ben_brocolli.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -583,11 +567,11 @@
             }
         },
         {
-            "Key": "e3280edf-5f62-482e-b80a-7af9eeab57dd",
+            "Key": "e5b0307e-54d2-42fb-8f28-bde00fdd0aab",
             "Value": {
-                "id": "005fe7af-ab74-4766-a8d4-5b82c405d42f",
-                "resourcePath": "rooms\\room1\\room1.yy",
-                "resourceType": "GMRoom"
+                "id": "4f74f3bc-b602-44fb-83b8-64cd025486e9",
+                "resourcePath": "sprites\\spr_lmao_ded\\spr_lmao_ded.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -636,6 +620,14 @@
                 "id": "5b7c6425-3a9f-4371-ac99-8d75649c1fe8",
                 "resourcePath": "sprites\\spr_liam_player\\spr_liam_player.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fc80bafa-e2f4-45e3-ae8f-01f766f84cce",
+            "Value": {
+                "id": "779e14b3-7e1d-41f4-be35-eac352e3627f",
+                "resourcePath": "rooms\\rm_ben_1\\rm_ben_1.yy",
+                "resourceType": "GMRoom"
             }
         }
     ],

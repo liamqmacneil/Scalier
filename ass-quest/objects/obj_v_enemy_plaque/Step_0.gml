@@ -9,7 +9,11 @@ if(place_meeting(x+hsp,y,obj_wall)) {
 	}
 	hsp = 0;
 	dir *= -1;
+} else if(!place_meeting(x+hsp,y+1,obj_wall)) {
+	hsp = 0;
+	dir *= -1;
 }
+
 
 x += hsp;
 #endregion
@@ -29,12 +33,9 @@ y += vsp;
 if(place_meeting(x,y+vsp,obj_b_player)) {
 	if(obj_b_player.y < y-16)
 	{
-		with(obj_b_player) vsp = -jumpspeed;
+		with(obj_b_player) vsp = -walksp;
 		instance_destroy();
 	}
-	else 
-	{
-		game_restart();
-	}
+	
 }
 #endregion

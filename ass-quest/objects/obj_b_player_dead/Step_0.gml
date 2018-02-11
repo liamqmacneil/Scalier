@@ -26,6 +26,7 @@ if(done == 0){
 			done = 1;
 			//set the sprite to equal the dead sprite
 			image_index = 1;
+			//instance_create_layer(x-200,y-100,"GUI",obj_u_ded);
 		}
 		
 		while(!place_meeting(x, y + sign(vsp), obj_wall))
