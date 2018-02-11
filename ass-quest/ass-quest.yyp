@@ -330,7 +330,7 @@
             "Key": "8a3f98d6-22e2-414b-a94a-79922aa4a6bf",
             "Value": {
                 "id": "89d9632c-ad94-47c2-8e1a-b2ad798c8727",
-                "resourcePath": "objects\\object22\\object22.yy",
+                "resourcePath": "objects\\obj_ben_broccoli\\obj_ben_broccoli.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -563,6 +563,14 @@
             "Value": {
                 "id": "ba8e7fa4-538a-446d-9d72-6386afeaea9d",
                 "resourcePath": "objects\\obj_b_player\\obj_b_player.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "de5f1c9c-0104-4ef9-b4ce-0833c6715b70",
+            "Value": {
+                "id": "e62cead7-cb76-4501-a39c-1123ba6657db",
+                "resourcePath": "objects\\obj_camera\\obj_camera.yy",
                 "resourceType": "GMObject"
             }
         },

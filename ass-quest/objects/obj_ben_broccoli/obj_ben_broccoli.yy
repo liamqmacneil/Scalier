@@ -2,7 +2,7 @@
     "id": "8a3f98d6-22e2-414b-a94a-79922aa4a6bf",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "object22",
+    "name": "obj_ben_broccoli",
     "eventList": [
         {
             "id": "b0d43514-d427-4674-82d9-182e80ee78fa",
