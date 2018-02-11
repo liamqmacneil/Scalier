@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "05066a51-7643-4c72-81a5-ac0d7bef74de",
+            "Value": {
+                "id": "5552cc63-2c1b-45bd-9c51-ab48e99e0473",
+                "resourcePath": "objects\\obj_tongue_end\\obj_tongue_end.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "097f75cc-63f7-4ff2-9b0b-3e8f4b903087",
             "Value": {
                 "id": "920fbee0-40f1-4c97-9618-69f9994b83be",
@@ -127,6 +135,22 @@
             }
         },
         {
+            "Key": "3f1102c0-ce31-4226-8890-b14560a8b22c",
+            "Value": {
+                "id": "38e0a0b0-6f38-4164-92c7-07b70ac956e4",
+                "resourcePath": "sprites\\sprite21\\sprite21.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "42c51bd6-60f6-403d-a2a9-e1fdc63736d1",
+            "Value": {
+                "id": "d1622492-0f09-413d-8733-72b760ed7598",
+                "resourcePath": "objects\\obj_teeth_reg\\obj_teeth_reg.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "467ebb10-4176-4c54-a5ad-78f1bbaead1e",
             "Value": {
                 "id": "4c3d1449-ce6c-4eb2-9179-40027f36e4a0",
@@ -148,6 +172,14 @@
                 "id": "41c745f8-e508-4f9d-8267-bcb5c3bcd58e",
                 "resourcePath": "objects\\object17\\object17.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "50648525-e91e-4e7e-b44a-5b9d0eb84fe5",
+            "Value": {
+                "id": "5b68f40c-1398-4f7d-8380-3c7a2e97bdec",
+                "resourcePath": "sprites\\spr_canine_tooth\\spr_canine_tooth.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -311,11 +343,27 @@
             }
         },
         {
+            "Key": "984a84b8-02db-4bf4-9319-89c199d13483",
+            "Value": {
+                "id": "12bc696c-bca4-4300-b56a-1dbdf36a7dd1",
+                "resourcePath": "objects\\obj_teeth_canine\\obj_teeth_canine.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "991fc846-e798-4157-861f-971cadb840a5",
             "Value": {
                 "id": "0cfc8bd9-ef1d-460b-8f78-4ae6d8bda2ae",
                 "resourcePath": "views\\991fc846-e798-4157-861f-971cadb840a5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9cb62075-b6da-4208-b5f6-07c545663db5",
+            "Value": {
+                "id": "6c2f2351-2c2f-438f-9259-0a7dc1464ebe",
+                "resourcePath": "rooms\\room2\\room2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -332,6 +380,14 @@
                 "id": "b7533162-b96a-4d64-968c-efd0b50fe044",
                 "resourcePath": "objects\\obj_v_opening_mouth\\obj_v_opening_mouth.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a34368a2-2f8e-4ade-a657-8894e0438b0f",
+            "Value": {
+                "id": "56650f21-996b-4694-90dc-c1b1fa7ee27c",
+                "resourcePath": "sprites\\spr_teeth\\spr_teeth.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -447,6 +503,14 @@
             }
         },
         {
+            "Key": "cec5f08d-fa3c-4088-a8d4-2148297543db",
+            "Value": {
+                "id": "a806d41e-f9f6-4dda-9a4d-90872ee8a65d",
+                "resourcePath": "sprites\\spr_tongue_end\\spr_tongue_end.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d5460b7c-3c4a-49a9-b560-927d599a5bc9",
             "Value": {
                 "id": "514b9fb0-9baa-495c-8ad5-bfe295b8bc8e",
@@ -476,6 +540,14 @@
                 "id": "ba8e7fa4-538a-446d-9d72-6386afeaea9d",
                 "resourcePath": "objects\\obj_b_player\\obj_b_player.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e3280edf-5f62-482e-b80a-7af9eeab57dd",
+            "Value": {
+                "id": "005fe7af-ab74-4766-a8d4-5b82c405d42f",
+                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
