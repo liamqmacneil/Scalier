@@ -50,7 +50,16 @@ if(place_meeting(x,y+vsp,obj_wall)) {
 
 }
 y = y + vsp;
-	
+
+
+if(place_meeting(x+hsp,y,obj_liver_acid)) {
+	hp = 0;
+}
+
+if(place_meeting(x,y+vsp,obj_liver_acid)) {
+	hp = 0;
+}
+
 if(hsp != 0) image_xscale = sign(hsp);
 
 #region Animation

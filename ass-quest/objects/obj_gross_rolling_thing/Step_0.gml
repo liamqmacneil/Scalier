@@ -2,7 +2,9 @@
 // You can write your code in this editor
 hsp = dir * movespeed;
 vsp += grav;
-#region//Horizontal Collision
+
+
+#region//Horizontal Collision Walls
 if(place_meeting(x+hsp,y,obj_wall)) {
 	while(!place_meeting(x+sign(hsp),y,obj_wall)) {
 		x += sign(hsp);
@@ -13,7 +15,8 @@ if(place_meeting(x+hsp,y,obj_wall)) {
 
 x += hsp;
 #endregion
-#region //Verticle Collision
+
+#region //Verticle Collision Walls
 if(place_meeting(x,y+vsp,obj_wall)) {
 	while(!place_meeting(x,y+sign(vsp),obj_wall)) {
 		y = y + sign(vsp);
@@ -23,13 +26,14 @@ if(place_meeting(x,y+vsp,obj_wall)) {
 y += vsp;
 #endregion
 
+
 #region // Main Player Collision
 
 if(place_meeting(x,y+vsp,obj_b_player)) {
 	if(obj_b_player.y < y-16)
 	{
 		with(obj_b_player) vsp = -walksp;
-		instance_destroy();
+		HEALTH_ -= 1;
 	}
 	else 
 	{
