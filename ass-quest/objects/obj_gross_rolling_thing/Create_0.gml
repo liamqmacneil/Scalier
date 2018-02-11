@@ -11,3 +11,4 @@ hsp = 0;
 vsp = 0;
 
 HEALTH_ = 3;
+dmg = 2;
