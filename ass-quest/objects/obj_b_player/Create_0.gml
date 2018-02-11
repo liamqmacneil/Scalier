@@ -24,3 +24,5 @@ hitdelay = 0;
 
 //falltimer
 falltimer = 0;
+
+if(!layer_exists("player_layer")) layer_create(0,"player_layer");

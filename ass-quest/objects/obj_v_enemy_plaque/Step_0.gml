@@ -14,6 +14,10 @@ if(place_meeting(x+hsp,y,obj_wall)) {
 	dir *= -1;
 }
 
+if(place_meeting(x,y,obj_wall)) {
+	instance_destroy();
+}
+
 
 x += hsp;
 #endregion
@@ -39,3 +43,12 @@ if(place_meeting(x,y+vsp,obj_b_player)) {
 	
 }
 #endregion
+
+cooldown--;
+
+if(place_meeting(x,y,obj_b_player)) && (cooldown < 0) {
+	cooldown = 120;
+	obj_b_player.hp -= 1;
+	obj_b_player.hitfrom = direction;
+	//obj_b_player.hsp = lengthdir_x(sign(hsp)*7,direction);
+}

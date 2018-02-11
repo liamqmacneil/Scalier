@@ -1,2 +1,3 @@
 //Bullet Cooldown
-game_restart();
+//game_restart();
+room_restart();

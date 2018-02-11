@@ -10,3 +10,5 @@ hsp = 0;
 // Verticle Speed
 vsp = 0;
 
+//cooldown
+cooldown = 0;
