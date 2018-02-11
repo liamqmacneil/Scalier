@@ -5,7 +5,7 @@
     "name": "obj_b_player_dead",
     "eventList": [
         {
-            "id": "2cd18628-a093-446a-a127-e55b7fe27f1a",
+            "id": "3ac5adbd-4104-4e67-ab43-0474a6c243fb",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "7961e704-2e97-486a-90f0-23a3b587e3cc"
         },
         {
-            "id": "35778a11-ef52-4a69-949c-dbc9bb2d37dd",
+            "id": "6a82e968-578a-451b-9855-5aac66c800b3",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "e2cda84f-14c4-4515-ac02-628a33d3956d",
+    "spriteId": "f7c51175-ccde-4a63-af85-7b7af54a43d5",
     "visible": true
 }

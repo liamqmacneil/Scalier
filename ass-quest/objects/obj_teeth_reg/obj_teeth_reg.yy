@@ -1,8 +1,8 @@
 {
-    "id": "3b89e695-33e7-480c-8927-825bdf221035",
+    "id": "42c51bd6-60f6-403d-a2a9-e1fdc63736d1",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_u_ded",
+    "name": "obj_teeth_reg",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "a34368a2-2f8e-4ade-a657-8894e0438b0f",
     "visible": true
 }

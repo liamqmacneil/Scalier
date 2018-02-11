@@ -1,8 +1,8 @@
 {
-    "id": "3b89e695-33e7-480c-8927-825bdf221035",
+    "id": "984a84b8-02db-4bf4-9319-89c199d13483",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_u_ded",
+    "name": "obj_teeth_canine",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "50648525-e91e-4e7e-b44a-5b9d0eb84fe5",
     "visible": true
 }
