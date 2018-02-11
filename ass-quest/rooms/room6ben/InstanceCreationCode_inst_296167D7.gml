@@ -1,0 +1,1 @@
+targetRoom = room7ben;

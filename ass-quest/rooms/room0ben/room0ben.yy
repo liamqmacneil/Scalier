@@ -1,6 +1,6 @@
 
 {
-    "name": "room0",
+    "name": "room0ben",
     "id": "2330d9a4-b1cb-47ff-b1db-55f2f8ce077b",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,

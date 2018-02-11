@@ -122,7 +122,7 @@
             "Key": "2330d9a4-b1cb-47ff-b1db-55f2f8ce077b",
             "Value": {
                 "id": "dfdb4327-6e82-45a1-a482-30eccd193129",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\room0ben\\room0ben.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -282,7 +282,7 @@
             "Key": "68bd0f88-1c9e-4b3c-a7dd-5ae2120ed0fc",
             "Value": {
                 "id": "3df99511-c436-41e4-b7b3-4a49a4b2935c",
-                "resourcePath": "rooms\\room5\\room5.yy",
+                "resourcePath": "rooms\\room5ben\\room5ben.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -442,7 +442,7 @@
             "Key": "95cf7255-7500-4443-803c-f42b782746b5",
             "Value": {
                 "id": "d60ff093-bf2c-44cb-95ce-fb78e1544b72",
-                "resourcePath": "rooms\\room4\\room4.yy",
+                "resourcePath": "rooms\\room4ben\\room4ben.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -474,7 +474,7 @@
             "Key": "9cb62075-b6da-4208-b5f6-07c545663db5",
             "Value": {
                 "id": "6c2f2351-2c2f-438f-9259-0a7dc1464ebe",
-                "resourcePath": "rooms\\room2\\room2.yy",
+                "resourcePath": "rooms\\room2ben\\room2ben.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -650,7 +650,7 @@
             "Key": "dda06b0e-c106-4d54-8717-863f979482c4",
             "Value": {
                 "id": "dd8cee58-a5e5-4c35-a732-7b31c6d54b6a",
-                "resourcePath": "rooms\\room6\\room6.yy",
+                "resourcePath": "rooms\\room6ben\\room6ben.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -674,7 +674,7 @@
             "Key": "e3280edf-5f62-482e-b80a-7af9eeab57dd",
             "Value": {
                 "id": "005fe7af-ab74-4766-a8d4-5b82c405d42f",
-                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourcePath": "rooms\\room1ben\\room1ben.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -706,7 +706,7 @@
             "Key": "ed10a46a-aad1-4dd5-b00f-c55f3597508c",
             "Value": {
                 "id": "9bee78f4-34d1-4ab1-ada1-a9461a8e4347",
-                "resourcePath": "rooms\\room7\\room7.yy",
+                "resourcePath": "rooms\\room7ben\\room7ben.yy",
                 "resourceType": "GMRoom"
             }
         },
