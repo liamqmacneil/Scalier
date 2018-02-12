@@ -39,14 +39,6 @@
             }
         },
         {
-            "Key": "0d4c5e5b-c97c-455b-a8cf-1ba5a5491174",
-            "Value": {
-                "id": "58d545a4-fd7b-4d6c-b663-c45e6f15db5f",
-                "resourcePath": "objects\\obj_scalier\\obj_scalier.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "0ef595d8-9b39-4314-9399-e7397ae0d6b2",
             "Value": {
                 "id": "b0019ce5-da9b-4b5e-9db8-7e57fdc05352",
@@ -119,14 +111,6 @@
             }
         },
         {
-            "Key": "3d18602a-510d-4658-a39a-2c7477ae9d60",
-            "Value": {
-                "id": "31369926-40f1-4552-8648-915781c744f6",
-                "resourcePath": "objects\\obj_scaleMask\\obj_scaleMask.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "3f0929c6-ab83-4a30-8719-b38006ab23d9",
             "Value": {
                 "id": "e0399dc1-6696-44c8-ac68-e46cb7cbaa83",
@@ -191,14 +175,6 @@
             }
         },
         {
-            "Key": "6bcfd9ef-4372-44a8-90aa-00486d33a6ce",
-            "Value": {
-                "id": "8955a468-b240-4101-aab7-f83e5556ca26",
-                "resourcePath": "objects\\obj_wallScaleMask\\obj_wallScaleMask.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "6c41d355-0bc5-40a1-ab96-4a47af872979",
             "Value": {
                 "id": "734aa774-b2a3-4248-a997-96eb3738ac10",
@@ -244,22 +220,6 @@
                 "id": "c57e6f08-2bb0-4dbf-a70b-c3515ee0f0c0",
                 "resourcePath": "views\\88a5a726-cbce-4594-a966-6f485e795a51.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "91ea1167-0a72-4972-b281-901635bc7e0e",
-            "Value": {
-                "id": "90db4ce0-c988-48a9-a3fc-54c38cbe68f3",
-                "resourcePath": "objects\\obj_wall_scale\\obj_wall_scale.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "923119bb-494b-43dd-93fd-bb5b5985f78b",
-            "Value": {
-                "id": "2d58a69b-6f54-415a-84d2-7c5aacec4feb",
-                "resourcePath": "objects\\obj_mouse\\obj_mouse.yy",
-                "resourceType": "GMObject"
             }
         },
         {
